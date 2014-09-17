@@ -10,34 +10,48 @@
 <body>
 <div class="container-fluid">
 
-	<div class="navbar-header"
-  		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			<li><span class="sr-only">Toggle navigation</span></li>
-			<li><span class="glyphicon glyphicon-stop"></span></li>
-			<li><span class="glyphicon glyphicon-stop"></span></li>
-			<li><span class="glyphicon glyphicon-stop"></span></li>
-		</button>
-  	<a class="col-xs-4 col-sm-3 col-md-2 navbar-brand" href="port-index.html">Brand</a>
-	</div>
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	<span class="sr-only">Toggle navigation</span>
+	<span class="glyphicon glyphicon-stop"></span>
+	<span class="glyphicon glyphicon-stop"></span>
+	<span class="glyphicon glyphicon-stop"></span>
+  </button>
+  <a class="col-xs-4 col-sm-3 col-md-2 navbar-brand" href="index.html"></a>
+</div>
 
-	<div class="class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"">
-		<ul>
-			<li><a href="#about">ABOUT</a></li>
-			<li><a href="#work">WORK</a></li>
-			<li><a href="#contact">CONTACT</a></li>
-		</ul>
-	</div>
+<div class="class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"">
+	<ul class="nav nav-justified">
+		<li><a href="#about">ABOUT</a></li>
+		<li><a href="#work">WORK</a></li>
+		<li><a href="#contact">CONTACT</a></li>
+	</ul>
+</div>
 	
 	<div id="header">
-			<div id="logo">
-				<img src="images/logoMAIN.png" alt="My Logo">
-			</div>
+		<div id="logo">
+			<img src="images/logoMAIN.png" alt="My Logo">
+		</div>
 	</div>
 	
+	<div class="design-types container-fluid">
+		<img class="img-padding" src="images/print-pictogram.png">
+		
+		<h2>DESIGN <span class="color-accent">FOR</span> PRINT</h2>
+		
+		<p class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+		
+		<img src="images/web-pictogram.png">
+		
+		<h2>DESIGN <span class="color-accent">FOR</span> WEB</h2>
+		
+		<p class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+	</div>
+
 	<div id="about" class="region green">			
 		<div class="container-fluid">
 			<h1 class="white-heading">HELLO, I'M JOHN.</h1>
-				<div class="col-xs-12 col-lg-6 col-lg-offset-3">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
 					<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to</br> </br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."</p>
 				</div>
 		</div>
@@ -46,12 +60,53 @@
 	<div id="work">
 		<div>
 			<h1>LOOK AT MY WORK.</h1>
+			<div class="container-fluid row">
+				<img class="bottom-padding img-responsive" src="images/work.jpg" alt="My Logo">
+				<img class="bottom-padding img-responsive"  src="images/work.jpg" alt="My Logo">
+				<img class="bottom-padding img-responsive"  src="images/work.jpg" alt="My Logo">
+				<img class="bottom-padding img-responsive"  src="images/work.jpg" alt="My Logo">
+				<img class="bottom-padding img-responsive img-responsive" src="images/work.jpg" alt="My Logo">
+				<img class="bottom-padding img-responsive"  src="images/work.jpg" alt="My Logo">
+				<img class="bottom-padding img-responsive"  src="images/work.jpg" alt="My Logo">
+				<img class="bottom-padding img-responsive"  src="images/work.jpg" alt="My Logo">
+			</div>
+		</div>
+	</div>
+
+	<div id="about" class="region black">			
+		<div class="container-fluid">
+			<h1 class="white-heading">KEEP IN TOUCH.</h1>
+				<form class="container-fluid" action="">
+					
+					<div>
+					<label class="form-font"><span class="form-label">NAME</span><br><input class="form-field" id="POST-name" type="text" name="name"></label>
+
+					
+					<br><br>
+					
+
+					<label class="form-font"><span class="form-label">EMAIL</span><br><input class="form-field" id="POST-name" type="text" name="name"></label>
+
+					
+					<br><br>
+					
+
+					<label class="form-font"><span class="form-label">MESSAGE</span><br><input class="form-field" id="POST-name" type="textarea" name="name"></label>
+
+				
+					<br><br>
+
+					<button type="button"><span class="form-font">Submit</span></button>
+					</div>
+
+				</form>
 		</div>
 	</div>
 
 	<div id="contact" class="region green">			
+
 		<div class="container-fluid">
-			<div id="message" class="message">
+			<div class="message">
 				<img src="images/message-pictogram.png" class="img-responsive" alt="message">
 			</div>
 		</div>
@@ -64,6 +119,7 @@
 
 	</div>
 
+</div>
 </div>
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
