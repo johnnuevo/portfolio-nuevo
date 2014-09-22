@@ -1,13 +1,11 @@
 body
 {
-margin: 8px;	
+margin-bottom: 5px;	
 }
 
 ul
 {
 list-style-type: none;
-margin: 0;
-padding-top:20px;
 text-align: center;
 font-family: oswald;
 font-size: 12pt;
@@ -43,6 +41,7 @@ text-align: center;
 padding-top: 50px;
 font-size: 75px;
 line-height: 1.3;
+padding-bottom: 20px;
 }
 
 h2
@@ -65,9 +64,14 @@ padding-top: 20px;
 padding-bottom: 50px;
 }
 
+.grey
+{
+background-color: black;	
+}
+
 .green
 {
-background-color: #4FBFA7;
+background: url("../images/background-image.gif")
 }
 
 .black
@@ -99,11 +103,6 @@ letter-spacing: 7px;
 color: #4FBFA7;	
 }
 
-.design-types
-{
-background-color: white;	
-}
-
 .img-padding
 {
 padding-top: 50px;	
@@ -119,16 +118,18 @@ border-color: #C7C8CA;
 .form-font
 {
 font-family: oswald;
+font-size: 18px;
 }
 
 .form-label
 {
-color: white;
+color: #C7C8CA;
+font-size: 18px;
 }
 
 input
 {
-width:450px;	
+width: 450px;	
 height: 35px;
 }
 
@@ -149,11 +150,6 @@ button:hover
 background-color: #4FBFA7;	
 }
 
-.bottom-padding
-{
-padding-bottom: 20px;
-}
-
 a
 {
 color: #4FBFA7;
@@ -164,6 +160,30 @@ a:hover
 color: #4FBFA7;	
 }
 
+.submit-button
+{
+margin-bottom: 40px;
+height: 50px;
+width: 120px;
+}
+
+.bw {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+ 
+.bw:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+.background-header
+{
+background-image: url(../images/background-header.gif)	
+}
+
 @media (max-width: 767px) {
 
 .black
@@ -171,17 +191,115 @@ color: #4FBFA7;
 display: none;
 }
 
+#logo
+{
+padding-top: 100px;	
+padding-bottom: 150px;
+}
+
+.print-pictogram
+{
+padding-top: 60px;	
+}
+
+.bottom-padding
+{
+padding-bottom: 20px;	
+}
+
+.navbar-brand button
+{
+}
+
+h1
+{
+font-size: 60px;	
+}
+
+h2
+{
+font-size: 30px;	
+}
+
 }
 
 @media (min-width: 768px) {
+
+.nav-bar
+{
+position: fixed;	
+background-color: white;
+height: 80px;
+z-index: 1;
+}
+
+#logo
+{
+padding-top: 250px;	
+padding-bottom: 300px;
+}
+
+.nav-bar
+{
+position: fixed;	
+background-color: white;
+height: 42px;
+z-index: 1;
+}
+
+.bottom-padding
+{
+padding-bottom: 30px;
+}
+
+.design-types
+{
+padding-top: 60px;	
+}
 
 }
 
 @media (min-width: 992px) {
 
+.nav-bar
+{
+position: fixed;	
+background-color: white;
+height: 42px;
+z-index: 1;
+}
+
+.bottom-padding
+{
+padding-bottom: 30px;
+}
+
+.design-types
+{
+padding-top: 60px;	
+}
+
 }
 
 @media (min-width: 1200px) {
+
+.nav-bar
+{
+position: fixed;	
+background-color: white;
+height: 42px;
+z-index: 1;
+}
+
+.bottom-padding
+{
+padding-bottom: 30px;
+}
+
+.design-types
+{
+padding-top: 60px;	
+}
 
 }
 
