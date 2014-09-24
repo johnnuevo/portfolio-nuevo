@@ -44,8 +44,8 @@ letter-spacing: -1;
 
 p
 {
-font-family: oswald;
-font-size: 13pt;
+font-family: rokkitt;
+font-size: 15pt;
 text-align: center;
 line-height: 18pt;
 margin-left: auto;
@@ -83,7 +83,7 @@ padding-bottom: 10px;
 
 .footer-text
 {
-font-size: 12px;
+font-size: 15px;
 color: white;	
 letter-spacing: 7px;
 }
@@ -107,13 +107,13 @@ border-color: #C7C8CA;
 
 .form-font
 {
-font-family: oswald;
+font-family: rokkitt;
 font-size: 18px;
 }
 
 .form-label
 {
-color: #C7C8CA;
+color: white;
 font-size: 18px;
 }
 
@@ -132,7 +132,7 @@ border-color: #4FBFA7;
 textarea
 {
 width: 450px;	
-height: 75px;	
+height: 90px;	
 }
 
 textarea:focus 
@@ -207,10 +207,6 @@ padding-top: 60px;
 .bottom-padding
 {
 padding-bottom: 20px;	
-}
-
-.navbar-brand button
-{
 }
 
 h1
